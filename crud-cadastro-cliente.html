@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Área do Cliente</title>
+  <title>Editar Cadastro de Cliente</title>
 </head>
 
 <body>
@@ -29,24 +29,59 @@
     </nav>
   </header>
 
-  <!-- Area do cliente -->
-  <div class="ac-container">
-    <div class="form">
-      <div class="title-area">
-        <img class="title-ac" src="img/ÁREA DO CLIENTE.png" alt="img">
-        <p><img class="subtitle-ac" src="img/Login-Cliente-img/Altere, Imprima, Veja Informações, etc....png" alt="img">
-        </p>
+  <!-- Login -->
+  <div class="container-cad">
+    <div class="form-cad">
+      <div class="title-cliente">
+        <img src="img/Login-Cliente-img/user_1.png" alt="img">
+        <img class="img-cliente" src="img/Editar Cadastro de Cliente.png" img">
+        <p class="p-cliente">Atualização de Cadastro do Cliente</p>
+        <br>
       </div>
 
-      <div class="area-box">
-        <img class="area-line" src="img/Login-Cliente-img/Line 4.png" alt="img">
+      <!-- fomulario -->
+      <div class="cliente-crud-box">
+        <label>E-mail:</label> <br>
+        <input type="text" placeholder="Ex: joaodasilva@gmail.com">
+        <br><br>
+        <label>Senha:</label> <br>
+        <input type="password" placeholder="Sua Senha de Login do Site">
+        <br><br>
+        <label>Nome Completo*:</label> <br>
+        <input type="text" placeholder="Ex: joaodasilva@gmail.com">
+        <br><br>
+        <label>CPF ou Passaporte*:</label> <br>
+        <input type="password" placeholder="Sua Senha de Login do Site">
+        <br> <br>
+        <label>Data de Nascimento*:</label> <br>
+        <input type="text" placeholder="Ex: joaodasilva@gmail.com">
+        <br><br>
+        <label>Número da CNH (Carteira de Habilitação)*:</label> <br>
+        <input type="password" placeholder="Sua Senha de Login do Site">
+        <br> <br>
+        <label>Telefone/Celular 1*:</label> <br>
+        <input type="text" placeholder="Ex: joaodasilva@gmail.com">
+        <br><br>
+        <label>Telefone/Celular 2 (Opcional):</label> <br>
+        <input type="password" placeholder="Sua Senha de Login do Site">
+        <br> <br>
+        <label>Telefone/Celular 3 (Opcional):</label> <br>
+        <input type="text" placeholder="Ex: joaodasilva@gmail.com">
+        <br> <br>
+        <p>
+          *Obrigatório <br>
+          **Não Insira . - (Pontos e Traço)
+        </p> <br>
 
-        <p class="p_1"><a href="historico-reserva.html">Reservas</a></p>
-        <p class="p_2"><a href="crud-reserva-veiculo.html">Editar Reservas</a></p>
-        <p class="p_4"><a href="pagina-crud-cliente.html">Informações do Cadastro</a></p>
-        <p class="p_5"><a href="crud-cadastro-cliente.html">Editar Informações do Cadastro</a></p>
-        <p class="p_6"><a href="pagina-inicial.html">Sair</a></p>
+        <a href="#">
+          <button class="btn-1" type="submit">Atualizar</button>
+        </a>
+        <br> <br>
+        <a href="#">
+          <button class="btn-delete" type="submit">Excluir Conta</button>
+        </a>
       </div>
+
     </div>
   </div>
 
